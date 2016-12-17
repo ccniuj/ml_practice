@@ -1,2 +1,2 @@
-# machine_learning_practice
-Implement machine learning algorithms by using SciPy
+# Machine Learning Practice
+Implement machine learning algorithms with SciPy
