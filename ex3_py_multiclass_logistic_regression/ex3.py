@@ -6,7 +6,7 @@ input_layer_size = 400
 num_labels = 10
 
 # Load data
-data = loadmat('ex3data1')
+data = loadmat('ex3data1.mat')
 X = sp.matrix(data['X'])
 Y = sp.matrix(data['y'])
 m = X.shape[0]

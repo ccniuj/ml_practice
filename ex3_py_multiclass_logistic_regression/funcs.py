@@ -10,7 +10,6 @@ def display_data(X, width=None, save=False):
   height = sp.int_(n / width)
   display_rows = sp.int_(sp.floor(sp.sqrt(m)))
   display_cols = sp.int_(sp.ceil(m / display_rows))
-  pad = 1
 
   def rightward(acc, curr):
     return sp.hstack([acc, curr])
